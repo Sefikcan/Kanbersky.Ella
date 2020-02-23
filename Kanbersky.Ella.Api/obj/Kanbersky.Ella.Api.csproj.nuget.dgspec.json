@@ -1,0 +1,366 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Api\\Kanbersky.Ella.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Api\\Kanbersky.Ella.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Api\\Kanbersky.Ella.Api.csproj",
+        "projectName": "Kanbersky.Ella.Api",
+        "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Api\\Kanbersky.Ella.Api.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Business\\Kanbersky.Ella.Business.csproj": {
+                "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Business\\Kanbersky.Ella.Business.csproj"
+              },
+              "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.DAL\\Kanbersky.Ella.DAL.csproj": {
+                "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.DAL\\Kanbersky.Ella.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Business\\Kanbersky.Ella.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Business\\Kanbersky.Ella.Business.csproj",
+        "projectName": "Kanbersky.Ella.Business",
+        "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Business\\Kanbersky.Ella.Business.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.DAL\\Kanbersky.Ella.DAL.csproj": {
+                "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.DAL\\Kanbersky.Ella.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Core\\Kanbersky.Ella.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Core\\Kanbersky.Ella.Core.csproj",
+        "projectName": "Kanbersky.Ella.Core",
+        "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Core\\Kanbersky.Ella.Core.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.DAL\\Kanbersky.Ella.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.DAL\\Kanbersky.Ella.DAL.csproj",
+        "projectName": "Kanbersky.Ella.DAL",
+        "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.DAL\\Kanbersky.Ella.DAL.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Core\\Kanbersky.Ella.Core.csproj": {
+                "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Core\\Kanbersky.Ella.Core.csproj"
+              },
+              "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Entity\\Kanbersky.Ella.Entity.csproj": {
+                "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Entity\\Kanbersky.Ella.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Entity\\Kanbersky.Ella.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Entity\\Kanbersky.Ella.Entity.csproj",
+        "projectName": "Kanbersky.Ella.Entity",
+        "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Entity\\Kanbersky.Ella.Entity.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Core\\Kanbersky.Ella.Core.csproj": {
+                "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Ella\\Kanbersky.Ella.Core\\Kanbersky.Ella.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+D:\WorkSpaces\Microservices\Kanbersky.Ella\Kanbersky.Ella.Core\bin\Debug\netcoreapp3.1\Kanbersky.Ella.Core.deps.json
+D:\WorkSpaces\Microservices\Kanbersky.Ella\Kanbersky.Ella.Core\bin\Debug\netcoreapp3.1\Kanbersky.Ella.Core.dll
+D:\WorkSpaces\Microservices\Kanbersky.Ella\Kanbersky.Ella.Core\bin\Debug\netcoreapp3.1\Kanbersky.Ella.Core.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Ella\Kanbersky.Ella.Core\obj\Debug\netcoreapp3.1\Kanbersky.Ella.Core.csprojAssemblyReference.cache
+D:\WorkSpaces\Microservices\Kanbersky.Ella\Kanbersky.Ella.Core\obj\Debug\netcoreapp3.1\Kanbersky.Ella.Core.AssemblyInfoInputs.cache
+D:\WorkSpaces\Microservices\Kanbersky.Ella\Kanbersky.Ella.Core\obj\Debug\netcoreapp3.1\Kanbersky.Ella.Core.AssemblyInfo.cs
+D:\WorkSpaces\Microservices\Kanbersky.Ella\Kanbersky.Ella.Core\obj\Debug\netcoreapp3.1\Kanbersky.Ella.Core.dll
+D:\WorkSpaces\Microservices\Kanbersky.Ella\Kanbersky.Ella.Core\obj\Debug\netcoreapp3.1\Kanbersky.Ella.Core.pdb
